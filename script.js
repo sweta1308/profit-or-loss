@@ -11,13 +11,16 @@ function calculateProfitLoss(initialPrice, noOfStocks, finalPrice) {
         var profit = (finalPrice - initialPrice) * noOfStocks;
         var profitPercent = (profit/initialPrice) * 100;
         result.innerText = `Congrats you made a profit of ${profit} and the profit percent is ${profitPercent}%.`
+        result.style.color = "green";
     } else
     if (initialPrice > finalPrice) {
         var loss = (initialPrice - finalPrice) * noOfStocks;
         var lossPercent = (loss/initialPrice) * 100;
         result.innerText = `Oops! You made a loss of ${loss} and the loss percent is ${lossPercent}%.`
+        result.style.color = "red";
     } else {
-        result.innerText = "You neither faced loss nor profit."
+        result.innerText = "Neither a loss nor a profit."
+        result.style.color = "blue";
     }
 }
 

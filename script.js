@@ -31,7 +31,7 @@ function clickHandler() {
     if (iPrice == "") {
         result.innerText = "Enter Initial Price."
     } else if (stocks == "") {
-        result.innerText = "Enter NUmber of Stocks."
+        result.innerText = "Enter Number of Stocks."
     } else if (fPrice == "") {
         result.innerText = "Enter Final Price."
     } else {

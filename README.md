@@ -1,4 +1,4 @@
-# Chcek profit/losson stocks
+# Check profit/loss on stocks
 A VanillaJS app to check whether you are facing a profit or a loss based on number of stocks.
 
 ## Tech Stack

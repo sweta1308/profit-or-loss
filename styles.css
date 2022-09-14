@@ -66,3 +66,7 @@ button {
     padding: 0rem 1rem;
 }
 
+.content {
+    min-height: 80vh;
+}
+
